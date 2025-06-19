@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8" />
+<title>صفحة الأسهم</title>
+</head>
+<body>
+<h1>تحليلات الأسهم</h1>
+<p>هنا تجد آخر أخبار وتحليلات السوق المالي.</p>
+<a href="index.html">العودة إلى الصفحة الرئيسية</a>
+</body>
+</html>

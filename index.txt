@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8" />
+<title>MashhadPlus News</title>
+</head>
+<body>
+<h1>مرحبًا بكم في MashhadPlus News</h1>
+<p>موقع متخصص في أخبار وتحليلات المال والأسواق.</p>
+<ul>
+<li><a href="stocks.html">صفحة الأسهم</a></li>
+</ul>
+</body>
+</html>
