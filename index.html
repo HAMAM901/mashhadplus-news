@@ -6,40 +6,50 @@
   <title>MashhadPlus News</title>
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, sans-serif;
-      background-color: #f4f4f4;
-      color: #333;
-      padding: 40px;
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f7f9fc;
+      color: #222;
+    }
+    header {
+      background-color: #0050b3;
+      color: white;
+      padding: 30px 20px;
       text-align: center;
     }
-    h1 {
-      color: #0a58ca;
+    header h1 {
+      margin: 0 0 10px;
+      font-size: 2em;
     }
-    p {
-      font-size: 1.2em;
-      margin-bottom: 30px;
+    header p {
+      font-size: 1.1em;
     }
     nav {
-      margin: 30px 0;
+      background-color: #e4e7eb;
+      padding: 15px;
+      text-align: center;
     }
     nav a {
-      display: inline-block;
-      margin: 10px;
-      padding: 10px 20px;
       text-decoration: none;
-      color: #0a58ca;
-      border: 1px solid #0a58ca;
-      border-radius: 6px;
-      transition: 0.3s;
+      margin: 0 15px;
+      color: #0050b3;
+      font-weight: bold;
+      font-size: 1em;
     }
     nav a:hover {
-      background-color: #0a58ca;
-      color: white;
+      text-decoration: underline;
     }
-    .ads-container {
+    main {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+      text-align: center;
+    }
+    .ads-section {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+      gap: 20px;
       margin-top: 40px;
     }
     .ad-box {
@@ -47,18 +57,27 @@
       height: 250px;
       background-color: #fff;
       border: 2px dashed #ccc;
-      margin: 15px;
       display: flex;
       align-items: center;
       justify-content: center;
       color: #999;
       font-size: 0.9em;
     }
+    footer {
+      background-color: #e4e7eb;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+      margin-top: 50px;
+    }
   </style>
 </head>
 <body>
-  <h1>مرحبًا بكم في MashhadPlus News</h1>
-  <p>موقع متخصص في أخبار وتحليلات المال والأسواق في المملكة العربية السعودية</p>
+
+  <header>
+    <h1>مرحبًا بكم في MashhadPlus News</h1>
+    <p>موقع متخصص في أخبار وتحليلات المال والأسواق في المملكة العربية السعودية</p>
+  </header>
 
   <nav>
     <a href="stocks.html">صفحة الأسهم</a>
@@ -66,10 +85,18 @@
     <a href="contact.html">تواصل معنا</a>
   </nav>
 
-  <div class="ads-container">
-    <div class="ad-box">مساحة إعلان Google (300×250)</div>
-    <div class="ad-box">مساحة إعلان Google (300×250)</div>
-    <div class="ad-box">مساحة إعلان Google (300×250)</div>
-  </div>
+  <main>
+    <h2>مساحات مخصصة لإعلانات Google</h2>
+    <div class="ads-section">
+      <div class="ad-box">إعلان 300×250</div>
+      <div class="ad-box">إعلان 300×250</div>
+      <div class="ad-box">إعلان 300×250</div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 MashhadPlus News — جميع الحقوق محفوظة
+  </footer>
+
 </body>
 </html>
