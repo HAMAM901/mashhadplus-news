@@ -2,15 +2,74 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MashhadPlus News</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      padding: 40px;
+      text-align: center;
+    }
+    h1 {
+      color: #0a58ca;
+    }
+    p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+    nav {
+      margin: 30px 0;
+    }
+    nav a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      text-decoration: none;
+      color: #0a58ca;
+      border: 1px solid #0a58ca;
+      border-radius: 6px;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      background-color: #0a58ca;
+      color: white;
+    }
+    .ads-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 40px;
+    }
+    .ad-box {
+      width: 300px;
+      height: 250px;
+      background-color: #fff;
+      border: 2px dashed #ccc;
+      margin: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #999;
+      font-size: 0.9em;
+    }
+  </style>
 </head>
 <body>
   <h1>مرحبًا بكم في MashhadPlus News</h1>
-  <p>موقع متخصص في أخبار وتحليلات المال والأسواق.</p>
-  <ul>
-    <li><a href="stocks.html">صفحة الأسهم</a></li>
-    <li><a href="real-estate.html">صفحة العقارات</a></li>
-    <li><a href="contact.html">تواصل معنا</a></li>
-  </ul>
+  <p>موقع متخصص في أخبار وتحليلات المال والأسواق في المملكة العربية السعودية</p>
+
+  <nav>
+    <a href="stocks.html">صفحة الأسهم</a>
+    <a href="real-estate.html">صفحة العقارات</a>
+    <a href="contact.html">تواصل معنا</a>
+  </nav>
+
+  <div class="ads-container">
+    <div class="ad-box">مساحة إعلان Google (300×250)</div>
+    <div class="ad-box">مساحة إعلان Google (300×250)</div>
+    <div class="ad-box">مساحة إعلان Google (300×250)</div>
+  </div>
 </body>
 </html>
